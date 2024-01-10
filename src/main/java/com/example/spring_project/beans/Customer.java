@@ -97,11 +97,11 @@ public class Customer {
     public String toString() {
         return "Customer{" +
                 "id=" + id +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", email='" + email + '\'' +
-                ", password='" + password + '\'' +
-                ", coupons=" + coupons +
+                ", FirstName='" + firstName + '\'' +
+                ", LastName='" + lastName + '\'' +
+                ", Email='" + email + '\'' +
+                ", Password='" + password + '\'' +
+                ", Coupons=" + coupons +
                 '}';
     }
 }
