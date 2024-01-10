@@ -19,7 +19,6 @@ public class SpringProjectApplication {
 		// run the Spring Application context!
 		ConfigurableApplicationContext ctx=SpringApplication.run(SpringProjectApplication.class, args);
 		Company comp = ctx.getBean(Company.class);
-
 	}
 
 	@Bean

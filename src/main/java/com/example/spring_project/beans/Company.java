@@ -18,7 +18,6 @@ public class Company {
     @OneToMany(mappedBy = "company",fetch = FetchType.EAGER)
     private List<Coupon> coupons;
 
-    private String stam;
 
     public Company() {
     }
