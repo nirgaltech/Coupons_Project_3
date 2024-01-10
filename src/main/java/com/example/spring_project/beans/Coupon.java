@@ -32,6 +32,8 @@ public class Coupon {
     @ManyToMany(mappedBy = "coupons",fetch = FetchType.EAGER)
     private Set<Customer> customers;
 
+    private double number;
+
     public Coupon() {
     }
 
@@ -161,6 +163,14 @@ public class Coupon {
         this.image = image;
     }
 
+
+    public double getNumber() {
+        return number;
+    }
+
+    public void setNumber(double number) {
+        this.number = number;
+    }
 
     @Override
     public String toString() {
