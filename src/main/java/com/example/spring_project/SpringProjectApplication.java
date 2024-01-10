@@ -23,6 +23,7 @@ public class SpringProjectApplication {
 
 	@Bean
 	public HashMap<String, ClientFacade> tokensStore(){
+		// Barak wrote a comment here
 		return new HashMap<>();
 	}
 }
